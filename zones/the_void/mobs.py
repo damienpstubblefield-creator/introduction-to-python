@@ -41,6 +41,36 @@ TEMPLATES: dict[str, dict] = {
         "aggro":    False,
         "wander":   True,
     },
+    "Red kobold": {
+        "name":             "Jremblen",
+        "key_words":        ("kobold"),
+        "room_description": "a red kobold that is looking through a bag stands here.&N",
+        "description": (
+            "A kobold stands here looking through his bag, it it filled with several different types of moss.\n"
+            "His scales are garnet red."
+        ),
+        "race":     "Humanoid",
+        "class":    "rouge",
+        "level":    1,
+        "stats":    [40, 50 ,40, 30, 20, 40],
+        "aggro":    False,
+        "wander":   False,
+    },
+        "my_friend": {
+        "name":             "a student",
+        "key_words":        ("student", "friend"),
+        "room_description": "&wA weanders about aimlessly.&N",
+        "description": (
+            "A student with a faraway look,\n"
+            "Or  just lost."
+        ),
+        "race": "Elf",
+        "class": "Shortone",
+        "level": 1,
+        "stats": [60, 65, 60, 80, 70, 75],
+        "aggro": False,
+        "wander": True,
+    },
     "Shrimpman": {
         "name":             "Shrimpman",
         "key_words":        ("shrimp"),
