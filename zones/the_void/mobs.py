@@ -159,7 +159,39 @@ TEMPLATES: dict[str, dict] = {
         "aggro": False,
         "wander": False,
         "position": "standing",
+
+    
     },
+        "Citadel Guard": {
+        "name":             "Citadel Guard",
+        "key_words":        ("Guard", "Citadel"),
+        "room_description": "&wA An armed guard wanders here.&N",
+        "description": (
+            "The Kings Guard looks very protective!\nHe seems on his lunch break"
+        ),
+        "race":     "Hexblade",
+        "class":    "Guard",
+        "level":    50,
+        "stats":    [100, 100, 100, 100, 1000, 100],
+        "aggro":    False,
+        "wander":   False,
+    },
+<<<<<<< HEAD
+    "Adam Sandler": {
+        "name":             "Adam Sandler",
+        "key_words":        ("Adam", "Sandler"),
+        "room_description": "&wAdam Sandler wanders about aimlessly.&N",
+        "description": (
+            "A comedian with a faraway look, clearly lost in thought.\n"
+            "Or possibly just drunk."
+        ),
+        "race":     "Human",
+        "class":    "Comedian",
+        "level":    10,
+        "stats":    [0, 16, 60, 32, 7, 7],
+        "aggro":    True,
+        "wander":   True,
+=======
     # kill=False — combat system refuses killing blow on this mob.
     "moted_pc": {
         "name": "Moted",
@@ -173,6 +205,7 @@ TEMPLATES: dict[str, dict] = {
         "aggro": False,
         "wander": False,
         "kill": False,
+>>>>>>> f4af659054a31016cf2b6a834f0a41b7a144682f
     },
 }
 
