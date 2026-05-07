@@ -114,7 +114,7 @@ TEMPLATES: dict[str, dict] = {
     "weasel": {
         "name": "weasel",
         "key_words": ("weasel"),
-        "room_description": "&wA Weasel floats here randomly.&N",
+        "room_description": "&wA &YWeasel&N floats here randomly.&N",
         "description": (
             "It is very soft and chubby.\n",
             "It seems like it standing on some cheese.",
@@ -216,7 +216,7 @@ TEMPLATES: dict[str, dict] = {
     "the cheese monster": {
         "name": "the cheese monster",
         "key_words": ("cheese", "monster"),
-        "room_description": "&Ythe cheese monster sleeps here&N"
+        "room_description": "&Wthe&N &yc&Yh&N&ye&Ye&N&ys&Ye&N &bmonster &Wsleeps here&N",
         "description": (
             "a cheese monster thinking into space "
             "most likely thinking about &msleep..."
@@ -224,7 +224,7 @@ TEMPLATES: dict[str, dict] = {
         "race": "cheese",
         "class": "scary guy",
         "level": "29",
-        "stats": [46, 59, 65, 55, 75, 80]
+        "stats": [46, 59, 65, 55, 75, 80],
         "aggro": False,
         "wander": False,
     },

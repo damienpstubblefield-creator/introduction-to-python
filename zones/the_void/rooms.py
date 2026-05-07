@@ -91,6 +91,7 @@ ROOMS: dict[int, Room] = {
                 M.spawn("Lucas"),
                 M.spawn("escbaalion"),
                 M.spawn("wandering_student"),
+                M.spawn("the cheese monster"),
             ],
         }
     ),
