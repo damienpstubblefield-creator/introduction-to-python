@@ -50,10 +50,10 @@ TEMPLATES: dict[str, dict] = {
         "description": (
             "This large purple and black dragon seems to have a shroud of darkness around it. Its eyes appear to be pits of blackness"
         ),
-        "race": "Human",
-        "class": "Student",
-        "level": 1,
-        "stats": [60, 65, 60, 80, 70, 75],
+        "race": "Dragon",
+        "class": "Watcher",
+        "level": 50,
+        "stats": [100, 100, 100, 100, 100, 100],
         "aggro": False,
         "wander": True,
     },
