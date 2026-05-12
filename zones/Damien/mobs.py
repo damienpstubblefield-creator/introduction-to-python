@@ -12,21 +12,22 @@ from ashenmoor.world import Mob
 from ashenmoor.world.zone import make_spawner
 
 TEMPLATES: dict[str, dict] = {
-    "still_student": {
-        "name": "a still student",
-        "key_words": ("student", "still"),
-        "room_description": "&wA child in a school uniform floats here, not a thought in their mind.&N",
+    "wandering_student": {
+        "name": "a wandering student",
+        "key_words": ("student", "wandering"),
+        "room_description": "&wA wandering student meanders about aimlessly.&N",
         "description": (
-            "A student with an empty look."
+            "A student with a faraway look, clearly lost in thought.\n"
+            "Or possibly just lost."
         ),
         "race": "Human",
         "class": "Student",
         "level": 1,
         "stats": [60, 65, 60, 80, 70, 75],
         "aggro": False,
-        "wander": False,
-    },
-        "void_dragon": {
+        "wander": True,
+    
+    "void_dragon": {
         "name": "Inanis the Void Dragon",
         "key_words": ("inanis"),
         "room_description": "A large &Mdragon&N stands here looking around &Ragitated&N.",
@@ -39,6 +40,7 @@ TEMPLATES: dict[str, dict] = {
         "stats": [100, 100, 100, 100, 100, 100],
         "aggro": False,
         "wander": True,
+    },
     }
 }
 
