@@ -15,13 +15,13 @@ TEMPLATES: dict[str, dict] = {
     "escbaalion": {
         "name": "&gEscbaalion&N",  # The c is silent
         "key_words": ("Escbaalion"),
-        "room_description": "&gEscbaalion&N &wlicks his eyeball.&N",
+        "room_description": "&gEscbaalion&N licks his eyeball.",
         "description": (
-            "A humanoid lizard. He is &gdark-green&N, and has a short"
-            "&Ccyan sail&N that runs from the top of his head to the end of his tail."
-            "He wears an almost &Xblack cloak&N, but wears &Rno&N pants."
-            "A &ybrown leather satchel&N is slung over his shoulder."
-            "Only &ghe&N knows what is inside his &ybag&N. . . ."
+            "A humanoid lizard. He is &gdark-green&N, and has a short\n"
+            "&Ccyan sail&N that runs from the top of his head to the end of his tail.\n"
+            "He wears an almost &Xblack cloak&N, but wears &Rno&N pants.\n"
+            "A &ybrown leather satchel&N is slung over his shoulder.\n"
+            "Only &ghe&N knows what is inside his &ybag&N. . . .\n"
         ),
         "race": "Lizaroid",
         "class": "Sorcerer",
@@ -30,11 +30,10 @@ TEMPLATES: dict[str, dict] = {
         "aggro": True,
         "wander": False,
     },
-    
     "unicorn_blob": {
         "name": "&MUnicorn Blob&N",
         "key_words": ("unicorn", "blob"),
-        "room_description": "&MUnicorn Blob&N &wwanders without a care in the world.&N",
+        "room_description": "&MUnicorn Blob&N wanders without a care in the world.",
         "description": ("Remind me to finish description."),
         "race": "Slime",
         "class": None,
