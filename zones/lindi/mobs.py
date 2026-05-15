@@ -17,10 +17,10 @@ TEMPLATES: dict[str, dict] = {
         "name": "a wandering student",
         "key_words": ("student", "wandering"),
         "room_description": "&wA wandering student meanders about aimlessly.&N",
-        "description": {
+        "description": (
             "A student with a faraway look, clearly lost in thought.\n"
             "Or possibly just lost."
-    },
+        ),
         "race": "Human",
         "class": "Student",
         "level": 1,
